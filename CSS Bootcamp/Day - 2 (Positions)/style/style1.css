@@ -1,0 +1,73 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.food-card{
+    width: 400px;
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 14px 4px lightgray;
+    border-radius: 16px;
+    padding: 12px;
+    margin: 100px auto;
+    position: relative;
+}
+.img-section{
+    position: relative; 
+}
+.food-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.promoted{
+	background: rgb(100, 99, 99, 0.8);
+	color: rgb(198, 196, 196);
+	position: absolute;
+	top: 8px;
+	left: 8px;
+    font-size: 14px;
+	padding: 4px;
+	border-radius: 5px;
+}
+.discount{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(12, 133, 180);
+    color: white;
+    font-size: 16px;
+    padding: 2px 10px;
+    /* border-radius: 20px; */
+    margin-bottom: 15px;
+}
+.time{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.hotel-name{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px auto;
+}
+.food-name{
+    margin: auto;
+    font-size: 20px;
+    color: rgb(110, 107, 107);
+}
+.card-footer{
+	border-top: 2px solid lightgray;
+	color: gray;
+}
+.safety-icon{
+    width: 100px;
+    float: left;
+    margin: 22px 15px;
+}
+.safety-icon img{
+    width: 100%;
+}
