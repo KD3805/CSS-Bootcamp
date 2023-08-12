@@ -224,6 +224,11 @@
     border-radius: 60px;
 }
 
+.slider:hover{
+    background-color: black;
+    padding-left: 21px;
+}
+
 /* --main-content-- */
 
 .main-content{
